@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Logs & caches
+*.log
+.cache/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Playwright downloaded media (if any runtime downloads happen here)
+playwright/downloads/

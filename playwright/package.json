@@ -1,0 +1,20 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node run.js",
+    "test": "node -e \"require('./index.js'); require('./run.js'); console.log('OK: modules load without syntax errors')\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^1.44.0",
+    "dotenv": "^17.3.1",
+    "node-telegram-bot-api": "^0.67.0",
+    "playwright": "^1.58.2"
+  }
+}
