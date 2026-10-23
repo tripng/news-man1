@@ -1,0 +1,18 @@
+[config]
+model = "gemini/gemini-2.0-flash"
+fallback_models = ["gemini/gemini-2.0-flash"]
+model_type = "lite"
+git_provider = "github"
+
+[google_ai_studio]
+# GEMINI_API_KEY is set as a GitHub secret
+
+[pr_review]
+require_tests_review = false
+require_code_snippets_review = true
+num_code_suggestions_per_chunk = 6
+dual_bot_review = false
+
+[pr_description]
+generate_ai_summary = true
+generate_ai_title = true
